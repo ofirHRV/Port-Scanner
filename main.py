@@ -63,7 +63,7 @@ print(f"\n\n{'End date:' : <20}{str(date2) : >20}")  # show start date
 file.write(f"\n\n{'End date:' : <20}{str(date2) : >20}\n")  # add to file
 print(f"{'End time:' : <20}{str(t2.strftime('%H:%M:%S')) : >20}")  # show end date
 file.write(f"{'End time:' : <20}{str(t2.strftime('%H:%M:%S')) : >20}\n")  # add to file
-print(f"{'Total time:' : <20}{str(t2.strftime(str(total_time))) : >20}")  # show total time
-file.write(f"{'Total time:' : <20}{str(t2.strftime(str(total_time))) : >20}\n")  # add to file
+print(f"{'Total time:' : <20}{str(total_time) : >20}")  # show total time
+file.write(f"{'Total time:' : <20}{str(total_time) : >20}\n")  # add to file
 
 file.close()
